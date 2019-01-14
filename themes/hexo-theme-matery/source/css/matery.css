@@ -358,8 +358,15 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
+	/*
+	background: rgba(156, 39, 176, 0.75);	
+	*/
+	background: linear-gradient(45deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
+	/* 取消了原来的 60s 更换蒙版的动画 */
+	/*
+	-webkit-animation: rainbow 60s infinite;
+  animation: rainbow 60s infinite;
+	*/
 }
 
 .bg-cover:before, .bg-cover:after {
@@ -388,9 +395,12 @@ header .go-back i {
 }
 
 .bg-cover .description {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
+		font-weight: bold;
+		/*
     font-weight: 300;
-    line-height: 1.4em;
+    */
+		line-height: 1.4em;
     color: #eee;
 }
 
@@ -1356,7 +1366,7 @@ table tr:nth-child(2n), thead {
 
 .profile .author .career {
     margin: 8px 0;
-    font-size: 0.9rem;
+    font-size: 1.9rem;
     font-weight: 400;
     color: #777;
 }
@@ -1368,6 +1378,7 @@ table tr:nth-child(2n), thead {
 #aboutme .introduction {
     margin: 1.5rem auto 3rem;
     max-width: 600px;
+    font-size: 1.5rem;
     color: #999;
 }
 
@@ -1538,6 +1549,54 @@ footer a {
 
 footer .copy-right {
     color: #d9d9d9;
+}
+
+/* 添加跳动的爱心 */
+footer .with-love {
+		display: inline-block;
+    margin: 0 5px;
+    color: red;
+}
+
+#love-animate {
+	animation: iconAnimate 1.33s ease-in-out infinite;
+}
+
+@keyframes iconAnimate {
+	0%,
+	100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+	}
+	10%,
+	30% {
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9);
+	}
+	20%,
+	40%,
+	60%,
+	80% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+	}
+	50%,
+	70% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+	}
 }
 
 /*搜索层样式*/
