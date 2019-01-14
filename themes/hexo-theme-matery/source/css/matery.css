@@ -358,11 +358,9 @@ header .go-back i {
 }
 
 .bg-cover:after {
-	/*
-	background: rgba(156, 39, 176, 0.75);	
-	*/
-	background: linear-gradient(45deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
 	/* 取消了原来的 60s 更换蒙版的动画 */
+	/* TODO: 浏览器兼容性问题, 再试试随机出现一个蒙版 */
+  background: linear-gradient(45deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
 	/*
 	-webkit-animation: rainbow 60s infinite;
   animation: rainbow 60s infinite;
