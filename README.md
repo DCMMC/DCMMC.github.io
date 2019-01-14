@@ -20,3 +20,4 @@ $ hexo d
 
 * [ ] `\_posts` 中的 `assets` 问题, 写一个小插件
 * [ ] 用 CI 进行自动部署
+* [ ] `Docker` 化 (nginx) 本地测试并部署到 VPS (添加 https)
