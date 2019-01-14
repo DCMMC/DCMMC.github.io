@@ -110,4 +110,4 @@ theme: hexo-theme-matery
 deploy:
   type: git
   repo: git@github.com:DCMMC/DCMMC.github.io.git
-  branch: develop
+  branch: master
