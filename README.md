@@ -5,8 +5,12 @@ Powered by `Hexo` and theme `hexo-theme-matery`
 ## 运行与部署
 
 ```bash
+$ git clone --recursive https://github.com/DCMMC/DCMMC.github.io && cd ./DCMMC.github.io
+$ npm install
 $ hexo g && hexo s
 ```
+
+> 需提前安装 npm(cnpm) 和 hexo
 
 部署:
 
