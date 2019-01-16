@@ -361,11 +361,11 @@ header .go-back i {
     background-position: center center;
     background-size: cover;
     background-image: var(--bg-img-var);
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
+    -webkit-filter: blur(18px);
+    filter: blur(18px);
+    -moz-filter: blur(18px);
+    -o-filter: blur(18px);
+    -ms-filter: blur(18px);
 }
 
 .post-cover {
