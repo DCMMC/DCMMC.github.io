@@ -7,6 +7,7 @@ sudo: required
 cache:
   directories:
     - node_modules
+    - public
 
 # 只在更新 develop 时执行
 branches:
