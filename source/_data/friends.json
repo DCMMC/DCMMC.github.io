@@ -1,7 +1,37 @@
-[{
-    "avatar": "http://image.luokangyuan.com/4027734.jpeg",
-    "name": "Blinkfox",
-    "introduction": "Hello, I'm blinkfox, I like programming.",
-    "url": "https://blinkfox.github.io/",
-    "title": "浏览博客"
-}]
+[
+	{
+		"avatar": "https://blog.lilydjwg.me/user_files/lilydjwg/config/avatar.png",
+		"name": "百合仙子, 依云, 雪依",
+		"introduction", "ArchLinux CN 社区维护者之一, 是个 vim 用户呢",
+		"url": "https://blog.lilydjwg.me",
+		"title": "浏览博客"
+	},
+	{
+		"avatar": "https://avatars1.githubusercontent.com/u/17294071?s=460&v=4",
+		"name": "OriginCode",
+		"introduction": "小学生菊苣 (逃",
+		"url": "https://blog.origincode.me",
+		"title": "浏览博客"
+	},
+	{
+		"avatar": "https://avatars3.githubusercontent.com/u/23371099",
+		"name": "惠狐",
+		"introduction": "是一个可爱的小狐狸呢",
+		"url": "https://blog.megumifox.com",
+		"title": "浏览博客"
+	},
+	{
+		"avatar": "https://farseerfc.me/images/avatar.jpg",
+		"name": "Farseerfc",
+		"introduction": "fc 教授, 专业修理 ArchLinux 各种问题 (",
+		"url": "https://farseerfc.me/",
+		"title": "浏览博客"
+	},
+	{
+		"avatar": "http://image.luokangyuan.com/4027734.jpeg",
+		"name": "Blinkfox",
+		"introduction": "Blog 的原作者",
+		"url": "https://blinkfox.github.io/",
+		"title": "浏览博客"
+	}
+]

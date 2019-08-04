@@ -48,8 +48,8 @@ indexbtn:
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # 是否激活文章 TOC 功能，并配置TOC支持选中哪些标题类型.
 toc:
-  enable: true 
-  heading: h2, h3, h4
+  enable: true
+  heading: h1, h2, h3, h4
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
@@ -84,14 +84,14 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.png
-  career: 学生
-  introduction: 苦逼计院大学生一枚
+  career: DCMMC
+  introduction: 热爱折腾各种没用的技术, 是个操作系统迷, 是个 vim 用户. ArchLinux 真棒, 百合仙子真棒. 立志成为一个全干工程师 (x
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: false 
+  enable: false
   data:
     hexo-theme-matery:
       icon: fa-meetup
@@ -155,6 +155,7 @@ gitalk:
   owner: DCMMC
   repo: DCMMC.github.io
   oauth:
+    # 哎呀好不安全啊 (x
     clientId: 90ab465f737acf411814
     clientSecret: 0fc123ab5156afef5983f2a415c8e40a9d2f5a8d
   admin: DCMMC
@@ -230,11 +231,10 @@ backgroundImages:
   images:
   - /medias/banner/0.jpg
   - /medias/banner/1.jpg
-  - /medias/banner/2.jpg
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
-featureImages: 
+featureImages:
 - /medias/featureimages/0.jpg
 - /medias/featureimages/1.jpg
 - /medias/featureimages/2.jpg
