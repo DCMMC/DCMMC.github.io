@@ -230,7 +230,6 @@ backgroundImages:
   enable: true
   images:
   - /medias/banner/0.jpg
-  - /medias/banner/1.jpg
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
