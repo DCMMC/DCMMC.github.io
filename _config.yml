@@ -43,17 +43,15 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
+# ensure highlisht is false to run hexo-prism-plugin
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
+  enable: false
 
 # 使用 prism 作为代码高亮插件
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
-  line_number: false    # default false
+  line_number: true    # default false
   custom_css:
 
 # 搜索插件 hexo-generator-search

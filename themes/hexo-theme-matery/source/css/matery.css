@@ -789,6 +789,14 @@ article .article-tags .chip {
     margin-top: -60px;
 }
 
+
+/* DCMMC: fix line number disappearing for the prism-plugin */
+/* Ref: https://github.com/ele828/hexo-prism-plugin/issues/12 */
+#artDetail .line-numbers {
+	padding-left: 3.8em !important;
+}
+
+
 /* 修改小屏幕下文章详情table样式. */
 @media only screen and (max-width: 550px) {
     #articleContent table{
