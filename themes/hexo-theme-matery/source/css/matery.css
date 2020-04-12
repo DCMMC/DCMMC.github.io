@@ -796,6 +796,11 @@ article .article-tags .chip {
 	padding-left: 3.8em !important;
 }
 
+/* DCMMC: custom bg color */
+#artDetail pre[class*="language-"] {
+	background-color: #263238 !important;
+}
+
 
 /* 修改小屏幕下文章详情table样式. */
 @media only screen and (max-width: 550px) {
