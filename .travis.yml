@@ -5,6 +5,7 @@ sudo: required
 
 # Travis-CI Caching
 cache:
+  yarn: true
   directories:
     - node_modules
     - public
@@ -15,12 +16,14 @@ branches:
     - develop
 
 before install:
-  - npm install -g hexo-cli
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.22.4
+  - export PATH="$HOME/.yarn/bin:$PATH"
+  - yarn global add hexo-cli
+  - export PATH=`yarn global bin`":${PATH}"
 
 # Start: Build Lifecycle
 install:
-  - npm install
-  - npm install hexo-deployer-git --save
+  - yarn install
 
 # 执行清缓存，生成网页操作
 script:
