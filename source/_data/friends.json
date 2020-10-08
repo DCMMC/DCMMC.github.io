@@ -1,4 +1,11 @@
 [
+  {
+		"avatar": "https://www.zhangwp.com/_static/images/favicon.svg",
+		"name": "zawnpn",
+		"introduction": "本科数学系大佬师兄，现在在做强化学习，代码技术一流~",
+		"url": "https://www.zhangwp.com/",
+		"title": "浏览博客"
+	},
 	{
 		"avatar": "https://blog.lilydjwg.me/user_files/lilydjwg/config/avatar.png",
 		"name": "依云",
@@ -30,7 +37,7 @@
 	{
 		"avatar": "http://image.luokangyuan.com/4027734.jpeg",
 		"name": "Blinkfox",
-		"introduction": "Blog 的原作者",
+		"introduction": "本 Blog 主题的原作者",
 		"url": "https://blinkfox.github.io/",
 		"title": "浏览博客"
 	}
