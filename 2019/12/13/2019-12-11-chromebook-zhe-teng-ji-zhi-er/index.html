@@ -1,0 +1,1026 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Chromebook 折腾记之二, Blog">
+    <meta name="description" content="引子前面提到过在旧款 chromebook 上折腾 chromefy 的故事, 最近我这里有台新的 Windows 笔记本 (HP 笔记本, 而且竟然带一个小黑点(山寨 ThinkPad 小红点)). 鉴于之前的 chromebook 没有">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Chromebook 折腾记之二 | Blog</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+</head>
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/logo.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">Blog</span>
+                    </a>
+                </div>
+                
+
+<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Blog</div>
+        <div class="logo-desc">
+            
+            Stay hungry. Stay foolish.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                友情链接
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/DCMMC/DCMMC.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+
+    <div class="social-link"><a href="https://github.com/DCMMC" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:xwt97294597@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<!--
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+-->
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+
+</div>
+</div>
+
+            </div>
+        </div>
+
+        
+        <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/DCMMC/DCMMC.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+</header>
+
+
+
+
+
+<div class="bg-cover post-cover" style="--bg-img-var: url('/medias/featureimages/0.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        Chromebook 折腾记之二
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1,
+    #articleContent h2,
+    #articleContent h3,
+    #articleContent h4,
+    #articleContent h5,
+    #articleContent h6 {
+        padding-top: 76px;
+        margin-top: -76px;
+    }
+
+    #articleContent h1 {
+        line-height: 3.5rem;
+    }
+
+    #articleContent h2 {
+        line-height: 3.2rem;
+    }
+
+    #articleContent h3 {
+        line-height: 2.8rem;
+    }
+
+    #articleContent h4 {
+        line-height: 2.5rem;
+    }
+
+    #articleContent h5 {
+        line-height: 2.2rem;
+    }
+
+    #articleContent h6 {
+        line-height: 1.9rem;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+</style>
+<div class="row">
+    <div class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="article-tag">
+                
+                <a href="/tags/Chromebook/" target="_blank">
+                    <span class="chip bg-color">Chromebook</span>
+                </a>
+                
+            </div>
+            
+            <div class="post-info">
+                
+                <span class="post-cate">
+                <!--<span class="post-cate" style="margin-right: 0px">-->
+                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                    
+                    <a href="/categories/%E6%9D%82%E8%B0%88/" class="post-category" target="_blank">
+                        杂谈
+                    </a>
+                    
+                </span>
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2019-12-13
+                </span>
+				
+				
+            </div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>前面提到过在旧款 chromebook 上折腾 chromefy 的故事, 最近我这里有台新的 Windows 笔记本 (HP 笔记本, 而且竟然带一个小黑点(山寨 ThinkPad 小红点)). 鉴于之前的 chromebook 没有 vmx 支持, 我准备继续在这台笔记本上折腾 Chrome OS, 主要是 crouton 和 crostini.</p>
+<p>电脑配置如下:</p>
+<pre><code>Model: HP EliteBook 820 G3/807C
+Intel Core i7-6500U CPU @ 3.1GHz
+8GB DDR4
+256G SSD
+14 inch 1080P 屏幕
+</code></pre><p>配置还是很不错的, 而且足够轻薄, 续航也够用.</p>
+<h1 id="多系统-Windows"><a href="#多系统-Windows" class="headerlink" title="多系统 (Windows)"></a>多系统 (Windows)</h1><p>因为 Chrome OS 的 disk partition layout 比较特殊, 所以如果 layout 不符合要求会进不去系统的.</p>
+<p>安装多系统的思路主要是:</p>
+<ul>
+<li>先安装 Chrome OS, 并且把 STATE 部分缩小腾出空间, 注意缩小 STATE 后需要把整个 STATE 分区格式化一次, 不然无法开机(开机自动进入修复界面, 这个东西应该是 <code>write_gpt.sh</code> 之类的东西负责检查的)</li>
+<li>把 ROOT-C 或 KERNEL-C 的空间扩大 (ESP 分区我也扩大了, 原来太小了)</li>
+<li>安装 Windows 到上述分区, 注意 Windows 特别喜欢重新调整分区表的顺序 (安装扇区顺序)… 打乱分区顺序后 Chrome OS 将无法进入. 直接使用 <code>sfdisk -d /dev/sda &gt; sda.bkp</code> 暴力修改顺序再 <code>sfdisk /dev/sda &lt; sda.bkp</code></li>
+<li>在 Windows 中可以使用 EasyUEFI 更改启动顺序或者在 BIOS 里面改</li>
+</ul>
+<h1 id="Grub-启动问题"><a href="#Grub-启动问题" class="headerlink" title="Grub 启动问题"></a>Grub 启动问题</h1><p>Chromebook 使用的是 coreboot, 并且开机加载的是 kernel blob (Partition 2 或 4 之类的, kernel blob 里面包含一个有 bootloader, kernel config 和 kernel image 的一个 device tree, 并且 blob 头会做加密校验, 内容当然也是加密的) 而不是 grub, 所以到了我这台 Windows 笔记本上只能用 grub 了.</p>
+<p>而且我这默认 grub 的配置进不去系统, 所以需要做一下修改 (<code>ESP:/EFI/ChromeOS/grub.cfg</code> 或 <code>ESP:/EFI/Boot/grub.cfg</code>):</p>
+<pre><code>menuentry &quot;Chrome OS&quot; {
+  insmod ext2
+  insmod part_gpt
+  set root=(hd0,gpt3)
+  linux /boot/vmlinuz-4.14.120 init=/sbin/init boot=local rootwait ro noresume noswap loglevel=7 noinitrd console=  i915.modeset=1 dm_verity.dev_wait=0 cros_legacy cros_debug loadpin.enabled=0      root=/dev/sda3
+}
+</code></pre><blockquote>
+<p>/dev/sda3 对应 ROOT-A 分区, 且内核参数与 Chrome OS 默认的有许多出入之处.</p>
+</blockquote>
+<h1 id="Crouton"><a href="#Crouton" class="headerlink" title="Crouton"></a>Crouton</h1><blockquote>
+<p>安装 Crouton 容器的 xorg target 需要从 google 服务器(被 gfw ban 了)下载 adhd.tar.gz, 所以如果没有解决代理需要手动下载并更改容器里面的 prepare.sh 相关内容.</p>
+</blockquote>
+<p><code>Crouton</code> 就是一个 <code>chroot</code> + 自己实现了一个 <code>xorg server</code> 可以把 GUI 应用显示在 chrome tab 中的 <code>xiwi</code> + 可以运行在 <code>freon</code> 的 xorg ( <code>frecon</code> 是 chromium project 做的一个 tty 终端模拟器, crouton 的 xorg 可以运行整个 desktop environment 在 tty2, 自带 gpu 加速, 甚至感觉比 chrome os 的 DE 还流畅hhh) + 自动挂载一些目录（最重要的 /var/run 用于共享 host 的 dbus 之类的东西, tmp，~/Downloads…) + 剪贴板共享 + Audio （CARS）等等</p>
+<p>在上一篇博文中提到过 crouton 的缺陷:</p>
+<blockquote>
+<p>来自 chroot 的缺陷 (弊端, 不能算 Issues):</p>
+<p>• 因为只有 filesystem 级别的 isolate，所以进程 PID=1 已经被 chromeOS 的 <code>upstart</code> 占用而不能使用 <code>systemd</code> （可以使用容器技术解决，linux&gt;=3.10）<br>• 没办法创建虚拟网卡，所以 docker 无法使用（或者说只能工作在 <code>net=host</code> 上），可以尝试用 <code>rtk</code>（也是必须 net=host）<br>• 内核模块需要加载的话，因为没有 <code>linux-header</code>，所以必须去 chromium project 找到当前内核使用的那个源码树的那个 commit</p>
+</blockquote>
+<p>折腾了一下之后发现最后只剩下 init 的问题了, init 是 upstart 不是 systemd 有点不方便.</p>
+<p>linux-header, dkms 编译内核及其加载, kvm 和 virtualbox 的问题都搞定了.</p>
+<p>kvm 因为 crostini 需要用到, 所以默认就有, 只不过有 <code>/dev/kvm</code> 的权限问题 (Crouton 下 <code>sudo</code> 运行然后 libvirt 用户组记得添加即可). 在更加久远之前的 Chrome OS 可能需要在 bootloader 里面加入内核启动参数 <code>disablevmx=off</code>.</p>
+<p>测试下 kvm:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">sudo</span> xiwi qemu-system-x86_64 -boot d -enable-kvm -cdrom ./archlinux-2019.12.01-x86_64.iso -m 1024 -cpu kvm64 -smp 4
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="rkt-容器的使用"><a href="#rkt-容器的使用" class="headerlink" title="rkt 容器的使用"></a>rkt 容器的使用</h2><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">sudo</span> rkt run --no-overlay<span class="token operator">=</span>true --insecure-options<span class="token operator">=</span>image docker://alpine --net<span class="token operator">=</span>host --interactive
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<blockquote>
+<p>主要是网卡只能用 <code>host</code>, <code>overlay</code> 也似乎不支持.</p>
+</blockquote>
+<h2 id="linux-header-及-VirtualBox"><a href="#linux-header-及-VirtualBox" class="headerlink" title="linux-header 及 VirtualBox"></a>linux-header 及 VirtualBox</h2><blockquote>
+<p>Chromium OS 因为稍微有点小众, 许多资料其实都已经过时了.</p>
+</blockquote>
+<p>首先编译内核获得头文件, 这一步按照 Crouton 的 wiki 走下去就差不多了, 不过有几点需要注意的地方:</p>
+<ul>
+<li>Chromefy 后保留的是 chromium 镜像的内核, 而不是 chrome OS 恢复镜像里面的, 所以对应去 chromium os 所在版本 (e.g. 我这里是 R76, 而 chrome OS 是 R75) 对应的 Branch 去找, 记得注意小版本号和版本号里面的 git hash (如有).</li>
+<li>编译内核直接使用当前内核配置: <code>sudo modprobe configs &amp;&amp; zless /proc/config.gz &gt; $KERNEL_REPO/.config</code></li>
+<li>Chrome OS 使用比较严格的安全策略(SELinux, 禁止加载其他内核模块(文档里面说以后将可能完全禁止…)), 所以编译好的 virtualbox 内核模块会被 LoadPin 策略禁止加载 (R75 时是 LoadPin 了, 文档里面依然只有之前版本使用过的 lsm.module_locking=0 来取消禁止), 所以需要在 bootloader (i.e. grub) 里面取消该限制: <code>loadpin.enabled=0</code></li>
+</ul>
+<p>大致过程:</p>
+<p>使用 <a href="https://chromium.googlesource.com/chromiumos/third_party/kernel/+/refs/heads/release-R76-12239.B-chromeos-4.14" target="_blank" rel="noopener">release-R76-12239.B-chromeos-4.14</a> 这一个 repo.</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># repo 根目录下</span>
+./chromeos/scripts/prepareconfig chromeos-intel-pineview <span class="token comment" spellcheck="true"># 似乎可以不需要</span>
+<span class="token function">sudo</span> modprobe configs <span class="token operator">&amp;&amp;</span> zless /proc/config.gz <span class="token operator">></span> <span class="token variable">$KERNEL_REPO</span>/.config
+<span class="token comment" spellcheck="true"># make kernelrelease 确认下</span>
+<span class="token function">touch</span> REPORTING-BUGS <span class="token comment" spellcheck="true"># 缺少该文件, deb 打包会报错</span>
+<span class="token function">sudo</span> make-kpkg --rootcmd fakeroot kernel_image kernel_headers
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>在 Crouton 容器中修改 rc.local 使之启动的时候解除 /lib/modules 的挂载, 以免容器内对内核模块的操作影响 host:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/sh</span> -e
+<span class="token comment" spellcheck="true">#</span>
+<span class="token comment" spellcheck="true"># rc.local</span>
+<span class="token comment" spellcheck="true"># umount bindmounts /lib/modules from enter-chroot</span>
+<span class="token keyword">for</span> m <span class="token keyword">in</span> `cat /proc/mounts <span class="token operator">|</span> /usr/bin/cut -d <span class="token string">' '</span> -f2 <span class="token operator">|</span> <span class="token function">grep</span> /lib/modules<span class="token operator">|</span> <span class="token function">grep</span> -v <span class="token string">"^/$"</span> `<span class="token punctuation">;</span> <span class="token keyword">do</span>
+        <span class="token function">umount</span> <span class="token string">"<span class="token variable">$m</span>"</span>
+<span class="token keyword">done</span>
+<span class="token comment" spellcheck="true"># try to load vboxdrv modules</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> `find /lib/modules/<span class="token string">"\<span class="token variable"><span class="token variable">`</span><span class="token function">uname</span> -r\<span class="token variable">`</span></span>"</span> -name vboxdrv.ko` <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token comment" spellcheck="true"># check if loadpin is disabled</span>
+    <span class="token keyword">if</span> <span class="token operator">!</span> <span class="token function">grep</span> -q <span class="token string">"laodpin.enabled=0"</span> /proc/cmdline<span class="token punctuation">;</span> <span class="token keyword">then</span>
+        <span class="token keyword">exit</span> 0
+    <span class="token keyword">fi</span>
+    modprobe vboxdrv
+    modprobe vboxpci
+    modprobe vboxnetadp
+    modprobe vboxnetflt
+<span class="token keyword">fi</span>
+<span class="token keyword">exit</span> 0
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Oracle VBox 在 crouton 退出时依然运行着内核模块, 需要手动卸载:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">sudo</span> /sbin/rmmod vboxpci <span class="token operator">&amp;&amp;</span> <span class="token function">sudo</span> rmmod vboxnetadp <span class="token operator">&amp;&amp;</span> <span class="token function">sudo</span> rmmod vboxnetflt <span class="token operator">&amp;&amp;</span> <span class="token function">sudo</span> rmmod vboxdrv
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>所以编译好 <code>linux-image.*.deb</code> 和  <code>linux-header.*.deb</code> 后先不要马上安装, 先确保卸载掉之前 bind mount 的 /lib/modules.</p>
+<p>VirtualBox 效果图:</p>
+<p><img src="/assets/chromefy/vbox.png" alt="vbox.png"></p>
+<blockquote>
+<p>值得注意的是我发现也许是 <code>crostini</code> 与同样需要使用 <code>kvm</code> 的 Oracle VBox 冲突, <code>crostini</code> 所在的 <code>termina</code> 如果正在运行的话, Oracle VBox 将无法启动. 需要使用 <code>vmc stop termina</code> (在 <code>crosh</code> 中) 停止 <code>termina</code>, 而有趣的是 <code>qemu with kvm</code> 并不会与 <code>termina</code> 冲突.</p>
+</blockquote>
+<h2 id="ubuntu-16-04-xenial-折腾记"><a href="#ubuntu-16-04-xenial-折腾记" class="headerlink" title="ubuntu 16.04 (xenial) 折腾记"></a>ubuntu 16.04 (xenial) 折腾记</h2><p>因为 Crouton 推荐用的是 xenial (应该是支持的比较好, bug 少点), 所以就直接用用了 xenial:</p>
+<p><img src="/assets/chromefy/xenial.png" alt="xenial.png"></p>
+<p>Gnome 3.18 还是那个保留了 status icon bar 的版本, 真香啊, 而且没 bug 没插件的时候 Gnome 真流畅.</p>
+<p>使用过程中遇到了点问题:</p>
+<ul>
+<li><p>Gnome3/GTK3 版本太老了.. <code>adapta-gtk-theme</code> 现在最低要求 gnome 3.20… 自己编译了下 (sassc 需要自己编译, <a href="https://github.com/sass/sassc/blob/master/docs/building/unix-instructions.md" target="_blank" rel="noopener">参考</a>)发现动画没了, 画的也有问题… 所以准备用 ppa 安装一个新一点的版本的 Gnome3.</p>
+</li>
+<li><p>Audio 和屏幕亮度调节有问题, 我记得 Crouton 是搞定了这些的, 到时候再折腾下.</p>
+</li>
+<li><p>Gnome 开发的几个垃圾程序的 bug 导致桌面特别卡:</p>
+<ul>
+<li><p>文件索引导致的 high cpu usage: 可以去 setting 关掉, 我直接用下面的脚本屏蔽了这些扫描 (<a href="https://gist.github.com/vancluever/d34b41eb77e6d077887c" target="_blank" rel="noopener">Ref at gist</a>)</p>
+</li>
+<li><p>备份 (Deja) 莫名其妙 high cpu usage, 明明我是关闭的, 直接卸载: <code>sudo apt remove deja-dup*</code></p>
+</li>
+<li><p>Gnome-software high cpu usage: 文件权限问题<code>sudo chown -R &lt;USER&gt; /home/&lt;USER&gt;/.cache/dconf</code></p>
+</li>
+</ul>
+</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">tracker daemon -t
+<span class="token function">cd</span> ~/.config/autostart
+<span class="token function">cp</span> -v /etc/xdg/autostart/tracker-*.desktop ./
+<span class="token keyword">for</span> FILE <span class="token keyword">in</span> tracker-*.desktop<span class="token punctuation">;</span> <span class="token keyword">do</span> <span class="token keyword">echo</span> Hidden<span class="token operator">=</span>true <span class="token operator">>></span> <span class="token variable">$FILE</span><span class="token punctuation">;</span> <span class="token keyword">done</span>
+<span class="token function">rm</span> -rf ~/.cache/tracker ~/.local/share/tracker
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<p>反映出 gnome 写出来的程序真的很多 sucks 的…</p>
+</blockquote>
+<h1 id="Crostini"><a href="#Crostini" class="headerlink" title="Crostini"></a>Crostini</h1><p>参考 <a href="https://wiki.archlinux.org/index.php/Chrome_OS_devices/Crostini" target="_blank" rel="noopener">Arch Wiki</a> 安装 Archlinux 作为默认容器.</p>
+<p>因为我现在的 Chrome OS 的版本是 R75, 到了 R77 才支持 gpu 加速, 而 R77 的 ARC 的网络代理出问题了, 而 R78 的恢复镜像当时还没出, 所以有空升级到 R78 去.</p>
+<blockquote>
+<p>当时第一次进入 <code>Chromium OS</code> 的 tty 终端的时候, 发现可以用 <code>journal</code> 还以为 init 换成了 <code>systemd</code>, 结果白高兴一场, 依然是 <code>upstart</code>. 不过 <code>Chromium OS</code> 现在 (至少 R75 开始)的 tty (<code>frecon</code>) 默认是大字体了, 看着很舒服, 比 Arch Linux 默认 tty 字体大小舒服多了哈哈哈.</p>
+</blockquote>
+<p>发现几个值得一提的事:</p>
+<ul>
+<li>Chromium project 为了增强安全性和隔离性, 所以使用 crostini 跑在 kvm (他们的 wiki 说 overhead 很小) 里面的最小化 linux 环境里面再跑 lxc 容器, 其中跑的 linux 内核是不同于 chrome os 的, 甚至更加注重安全的版本(hardended 版本).</li>
+<li>只有默认容器 penguin 才能跑 sommelier</li>
+<li>Chrome OS 开机时默认不加载 Crostini 的, 因为 kvm 虚拟机启动还是有点费时间,以及为了安全性考虑 在 termina (Chrome OS 里面唯一能够运行的 KVM 虚拟机) 启动之前先启动  ARC 的 ss 软件, crostini 的网卡默认就会走代理了.</li>
+<li>crostini 出问题时 (e.g. 闪退) 万能方法: 在 Crosh (Ctrl+alt+F2 进去不要输入 shell)里面 <code>vsh stop termina &amp;&amp; vsh start termina</code> 重启大法.</li>
+<li>Chrome OS 默认 iptable 规则比较严格, 局域网想访问 crostini 里面的 docker 运行的服务需要做一下端口转发 (把 host 的流量转发到容器) 并且修改 iptable 规则 (<code>sudo iptables -I OUTPUT -o wlan0 -j ACCEPT &amp;&amp; sudo iptables -I INPUT -i wlan0 -j ACCEPT</code>).</li>
+</ul>
+<blockquote>
+<p>In a nutshell, sommelier 真香!</p>
+</blockquote>
+<p>在 crostini 中运行完整桌面可以用 <code>x11docker</code> (配合 <code>weston</code>):</p>
+<p>先输入<code>weston</code> 进入其桌面的终端, 输入 <code>x11docker --desktop --gpu --user=root --init=systemd --fullscreen x11docker/gnome</code></p>
+<blockquote>
+<p>在没有显卡加速的 R75 上略卡, 可以试试以后用 <code>chromebrew</code> 在 <code>frecon</code> 中使用  <code>weston</code> 来远程渲染 <code>crostini</code> 中的 <code>x11docker</code>.</p>
+</blockquote>
+<h2 id="在窗口里运行-Window-Manager-或-Desktop-Environment"><a href="#在窗口里运行-Window-Manager-或-Desktop-Environment" class="headerlink" title="在窗口里运行 Window Manager 或 Desktop Environment"></a>在窗口里运行 Window Manager 或 Desktop Environment</h2><p>一直有想法在运行 chrome OS 桌面的同时运行其他桌面，X11docker 是个选择不过 <code>weston</code> 效率不是很高而且 <code>docker</code> 可以理解为易失性存储器。<br>一次逛 Reddit 无意间发现了使用 <code>Xephyr</code> （a nested X server that runs as an X application）的 <a href="https://www.reddit.com/r/Crostini/comments/ean9du/running_a_window_manager_i3wm_on_stock_chrome_os" target="_blank" rel="noopener">帖子</a>，折腾了一下发现效果相当好！</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">alias</span> starti3<span class="token operator">=</span><span class="token string">'unset DBUS_SESSION_BUS_ADDRESS &amp;&amp; unset XDG_RUNTIME_DIR &amp;&amp; Xephyr -br -ac -noreset -screen 1920x1080 -dpi 150 -resizeable :2 >/dev/null 2>&amp;1 &amp;; sleep 1s &amp;&amp; DISPLAY=:2 i3 >/dev/null 2>&amp;1 &amp;'</span>
+<span class="token function">alias</span> exiti3<span class="token operator">=</span><span class="token string">'pkill Xephyr &amp;&amp; pkill i3'</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<blockquote>
+<p>主要需要注意的就是需要创建并使用新的 D-BUS session，否则在 <code>i3wm</code> 中打开的窗口不会运行在 <code>i3wm</code> 里面而是跑出去了，因为它们依赖 DBUS，错误的使用原来的 DBUS 回话打开了窗口。所以需要在新回话之前 unset 掉所有 DBUS 有关的环境变量。</p>
+</blockquote>
+<p>其实是在 <code>i3wm</code> 中因为缺少 DBUS 有关环境变量，会导致依赖它们的程序运行不正常（e.g. 搜狗拼音），所以需要 <code>export $(dbus-launch)</code> （可以直接放到 <code>~/.config/i3/config</code> 里面）导出一下。</p>
+<p>其次，我发现 <code>crostini</code> 中的 <code>sommelier</code> 会劫持一部分的快捷键来匹配 chrome OS 的行为，比如 <code>super_L</code> (a.k.a. <code>meta</code>) 键，Alt+<code>-</code> (最小化窗口)，Alt+<code>+</code> （最大化窗口），Alt+<code>[</code> （左半分屏），Alt+<code>]</code> (左半分屏)，etc. 所以要想在 <code>i3wm</code> 中使用 <code>Alt+1</code> 这样的快捷键，需要修改一下 <code>sommelier</code> 配置（[参考]（<a href="https://old.reddit.com/r/Crostini/wiki/enable-chrome-shortcuts-in-linux-apps)：" target="_blank" rel="noopener">https://old.reddit.com/r/Crostini/wiki/enable-chrome-shortcuts-in-linux-apps)：</a></p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">mkdir</span> -p ~/.config/systemd/user/sommelier@.service.d/
+<span class="token function">cat</span> <span class="token operator">&lt;&lt;</span>EOF <span class="token operator">></span> ~/.config/systemd/user/sommelier@.service.d/cros-sommelier-override.conf
+<span class="token punctuation">[</span>Service<span class="token punctuation">]</span>
+Environment<span class="token operator">=</span><span class="token string">"SOMMELIER_ACCELERATORS=&lt;Alt>minus,&lt;Alt>equal"</span>
+EOF
+<span class="token function">mkdir</span> -p ~/.config/systemd/user/sommelier-x@.service.d/
+<span class="token function">cat</span> <span class="token operator">&lt;&lt;</span>EOF <span class="token operator">></span> ~/.config/systemd/user/sommelier-x@.service.d/cros-sommelier-x-override.conf
+<span class="token punctuation">[</span>Service<span class="token punctuation">]</span>
+Environment<span class="token operator">=</span><span class="token string">"SOMMELIER_ACCELERATORS=&lt;Alt>minus,&lt;Alt>equal"</span>
+EOF
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<p>然而 <code>Alt+Tab</code> 还是默认被 chrome OS 的 Ash WM 劫持的，（似乎）无法通过上述配置文件修改。</p>
+</blockquote>
+<p>测试 <code>i3wm</code> 的时候还是发现 <code>meta+1</code> 这样的组合键有问题，用 <code>xev</code> 测试发现 <code>meat+1</code> 识别成了 <code>super_L + F1</code>, 研究了一会儿最后决定直接把 <code>$mod</code> 改成了 <code>Alt</code> 一劳永逸hhhh。</p>
+<p>现在还有点小问题，<code>F3</code> 全屏之后 <code>i3wm</code> 的大小还是原来的大小。</p>
+<p>全家福：</p>
+<p><img src="/assets/chromefy/Xephyr_i3wm.png" alt="i3wm"></p>
+<blockquote>
+<p> 不管是 <code>crostini</code> 还是 <code>crouton</code> 都可以用本小节方法在窗口中运行新的 <code>X server</code>。</p>
+</blockquote>
+<h2 id="无痛-A-B-升级-Chrome-OS"><a href="#无痛-A-B-升级-Chrome-OS" class="headerlink" title="无痛 A/B 升级 Chrome OS"></a>无痛 A/B 升级 Chrome OS</h2><p>主要使用: <a href="https://github.com/DCMMC/chrome_os_updater" target="_blank" rel="noopener">chrome_os_updater</a></p>
+<p>前提是需要 <code>EFI-SYSTEM</code>, <code>ROOT-A</code>, <code>ROOT-B</code> 三个 partlabel 的分区.</p>
+<p>可以使用在 Chrome OS 上升级系统到另外一下分区, 同时修改 grub.cfg.</p>
+<p>原 repo 直接覆盖了 EFI 分区, 这样对于多系统有影响, 所以 fork 下来略微修改了一下.</p>
+<h2 id="fcitx5-使用"><a href="#fcitx5-使用" class="headerlink" title="fcitx5 使用"></a>fcitx5 使用</h2><p>在 wayland 原生 gtk 应用中使用 <code>fcitx5</code> 会出现无法显示候选列表框的问题，这是因为没有 wayland IM module 或者应用不兼容输入法，在 kde 或者 gnome 中可以使用 <code>kimpanel</code>。</p>
+<p>而 crostini 并没有 DE，总之很多坑，目前并没有完美的解决方法。</p>
+<p>所以只能为这些应用单独开一个 X 给他们：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">sommelier -X <span class="token operator">&lt;</span>executable file<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>对于 sublime, 发现用 sommelier -X 无法启动，不过加入 debug 参数 <code>sommelier -X subl --debug</code> 就可以。</p>
+<p>不过使用时整体渲染感觉会卡一点。</p>
+<h1 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h1><h2 id="2019-12-20"><a href="#2019-12-20" class="headerlink" title="2019-12-20"></a>2019-12-20</h2><p>加入使用 <code>Xephyr</code> 运行 <code>i3wm</code> 有关内容。</p>
+<h2 id="2019-12-12"><a href="#2019-12-12" class="headerlink" title="2019-12-12"></a>2019-12-12</h2><p>加入 VBox 和 Termina 冲突有关的内容, 以及 <code>rkt</code> 和 <code>x11docker</code>.</p>
+<h2 id="2020-04-12"><a href="#2020-04-12" class="headerlink" title="2020-04-12"></a>2020-04-12</h2><p>加入无痛升级的脚本</p>
+<h2 id="2020-05-17"><a href="#2020-05-17" class="headerlink" title="2020-05-17"></a>2020-05-17</h2><p>加入 fcitx5 使用。</p>
+
+            </div>
+            <hr/>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">转载请注明: </span>
+                    <a href="http://yoursite.com" class="b-link-green">Blog</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2019/12/13/2019-12-11-chromebook-zhe-teng-ji-zhi-er/" class="b-link-green">Chromebook 折腾记之二</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '90ab465f737acf411814',
+        clientSecret: '0fc123ab5156afef5983f2a415c8e40a9d2f5a8d',
+        repo: 'DCMMC.github.io',
+        owner: 'DCMMC',
+        admin: "DCMMC",
+        id: '2019-12-13T00-00-00',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="card">
+                <a href="/2020/11/01/2020-11-01-jupyter-dao-chu-gao-qing-matplotlib-tu-pian/">
+                    <div class="card-image">
+                        
+                        <img src="/images/demo0.jpg" class="responsive-img" alt="Jupyter 导出高清 Matplotlib 图片">
+                        
+                        <span class="card-title">Jupyter 导出高清 Matplotlib 图片</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">Jupyter 导出高清 Matplotlib 图片Jupyter notebook 中如果使用 %matplotlib inline 来显示 Matplotlib 输出的话，效果很差很模糊。
+如果用 %matplotlib noteboo</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-11-01
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%9D%82%E8%B0%88/" class="post-category" target="_blank">
+                                    杂谈
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Jupyter/" target="_blank">
+                        <span class="chip bg-color">Jupyter</span>
+                    </a>
+                    
+                    <a href="/tags/Matplotlib/" target="_blank">
+                        <span class="chip bg-color">Matplotlib</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="card">
+                <a href="/2019/10/05/2019-10-05-bitcoding-liu-liang-fen-lei-bi-ji/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="BitCoding流量分类笔记">
+                        
+                        <span class="card-title">BitCoding流量分类笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">Traffic ClassificationBitCodingRef: BitCoding: Network Traffic ClassificationThrough Encoded Bit Level Signatures
+
+CCF A</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-05
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AE%BA%E6%96%87/" class="post-category" target="_blank">
+                                    论文
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E8%AE%BA%E6%96%87/" target="_blank">
+                        <span class="chip bg-color">论文</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BD%91%E7%BB%9C%E6%B5%81%E9%87%8F%E5%88%86%E7%B1%BB/" target="_blank">
+                        <span class="chip bg-color">网络流量分类</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+    </div>
+    <div class="col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title">目录</div>
+            <div id="toc-content">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingSelector: 'h1, h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+    });
+</script>
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            &copy; 2019 -  <span class="with-love" id="love-animate"> <i class="fa fa-heart"></i> </span> <a href="https://DCMMC.github.io/" target="_blank">DCMMC</a>
+	    <br>
+            由 <a href="https://hexo.io/" target="_blank">Hexo</a> 强力驱动  |  主题 - 
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>
+
+            
+			
+        </div>
+        <div class="col s12 m4 l4 social-link "><a href="https://github.com/DCMMC" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:xwt97294597@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<!--
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+-->
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title">搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+
+
+</body>
+</html>

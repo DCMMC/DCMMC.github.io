@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog</title>
+  
+  <subtitle>DCMMC&#39;s Blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-11-01T07:28:42.768Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Bill Kevin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Jupyter 导出高清 Matplotlib 图片</title>
+    <link href="http://yoursite.com/2020/11/01/2020-11-01-jupyter-dao-chu-gao-qing-matplotlib-tu-pian/"/>
+    <id>http://yoursite.com/2020/11/01/2020-11-01-jupyter-dao-chu-gao-qing-matplotlib-tu-pian/</id>
+    <published>2020-11-01T15:00:00.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Jupyter-导出高清-Matplotlib-图片&quot;&gt;&lt;a href=&quot;#Jupyter-导出高清-Matplotlib-图片&quot; class=&quot;headerlink&quot; title=&quot;Jupyter 导出高清 Matplotlib 图片&quot;&gt;&lt;/a&gt;Jupyter
+        
+      
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="Jupyter" scheme="http://yoursite.com/tags/Jupyter/"/>
+    
+      <category term="Matplotlib" scheme="http://yoursite.com/tags/Matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chromebook 折腾记之二</title>
+    <link href="http://yoursite.com/2019/12/13/2019-12-11-chromebook-zhe-teng-ji-zhi-er/"/>
+    <id>http://yoursite.com/2019/12/13/2019-12-11-chromebook-zhe-teng-ji-zhi-er/</id>
+    <published>2019-12-13T00:00:00.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;引子&quot;&gt;&lt;a href=&quot;#引子&quot; class=&quot;headerlink&quot; title=&quot;引子&quot;&gt;&lt;/a&gt;引子&lt;/h1&gt;&lt;p&gt;前面提到过在旧款 chromebook 上折腾 chromefy 的故事, 最近我这里有台新的 Windows 笔记本 (HP 笔记本,
+        
+      
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="Chromebook" scheme="http://yoursite.com/tags/Chromebook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BitCoding流量分类笔记</title>
+    <link href="http://yoursite.com/2019/10/05/2019-10-05-bitcoding-liu-liang-fen-lei-bi-ji/"/>
+    <id>http://yoursite.com/2019/10/05/2019-10-05-bitcoding-liu-liang-fen-lei-bi-ji/</id>
+    <published>2019-10-05T21:00:00.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Traffic-Classification&quot;&gt;&lt;a href=&quot;#Traffic-Classification&quot; class=&quot;headerlink&quot; title=&quot;Traffic Classification&quot;&gt;&lt;/a&gt;Traffic
+        
+      
+    
+    </summary>
+    
+      <category term="论文" scheme="http://yoursite.com/categories/%E8%AE%BA%E6%96%87/"/>
+    
+    
+      <category term="论文" scheme="http://yoursite.com/tags/%E8%AE%BA%E6%96%87/"/>
+    
+      <category term="网络流量分类" scheme="http://yoursite.com/tags/%E7%BD%91%E7%BB%9C%E6%B5%81%E9%87%8F%E5%88%86%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>推免回顾</title>
+    <link href="http://yoursite.com/2019/09/21/2019-09-21-tui-mian-hui-gu/"/>
+    <id>http://yoursite.com/2019/09/21/2019-09-21-tui-mian-hui-gu/</id>
+    <published>2019-09-21T17:24:00.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;引子&quot;&gt;&lt;a href=&quot;#引子&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="杂谈" scheme="http://yoursite.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+      <category term="推免" scheme="http://yoursite.com/tags/%E6%8E%A8%E5%85%8D/"/>
+    
+      <category term="研究生" scheme="http://yoursite.com/tags/%E7%A0%94%E7%A9%B6%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chromebook 折腾记</title>
+    <link href="http://yoursite.com/2019/01/25/2019-01-25-chromebook-zhe-teng-ji/"/>
+    <id>http://yoursite.com/2019/01/25/2019-01-25-chromebook-zhe-teng-ji/</id>
+    <published>2019-01-25T17:24:00.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h1&gt;&lt;p&gt;前段时间在知乎上看到 &lt;code&gt;立党&lt;/code&gt; 发的一个关于 &lt;code&gt;Chromebook&lt;/code&gt; 的回答, 据说
+        
+      
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="Chromebook" scheme="http://yoursite.com/tags/Chromebook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 使用 Travis-CI 持续集成</title>
+    <link href="http://yoursite.com/2019/01/17/2019-01-17-hexo-shi-yong-travis-ci-chi-xu-ji-cheng/"/>
+    <id>http://yoursite.com/2019/01/17/2019-01-17-hexo-shi-yong-travis-ci-chi-xu-ji-cheng/</id>
+    <published>2019-01-17T13:42:00.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;使用-Travis-自动部署-Hexo-到-Github-Page&quot;&gt;&lt;a href=&quot;#使用-Travis-自动部署-Hexo-到-Github-Page&quot; class=&quot;headerlink&quot; title=&quot;使用 Travis 自动部署 Hexo 到
+        
+      
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="持续集成" scheme="http://yoursite.com/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博文 Markdown 格式说明</title>
+    <link href="http://yoursite.com/2019/01/16/readme/"/>
+    <id>http://yoursite.com/2019/01/16/readme/</id>
+    <published>2019-01-16T02:42:06.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;更新博文直接在本 &lt;code&gt;repo&lt;/code&gt; 中更新就好了, 在 &lt;code&gt;DCMMC.github.io&lt;/code&gt; 的 submodule &lt;code&gt;/source/_posts&lt;/code&gt; 中更新的话,&lt;br&gt;要先 git
+        
+      
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx搭建Google镜像站点</title>
+    <link href="http://yoursite.com/2017/10/23/2017-10-23-google-jing-xiang-zhan-dian-da-jian/"/>
+    <id>http://yoursite.com/2017/10/23/2017-10-23-google-jing-xiang-zhan-dian-da-jian/</id>
+    <published>2017-10-23T10:51:06.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;就是一步&quot;&gt;&lt;a href=&quot;#就是一步&quot; class=&quot;headerlink&quot; title=&quot;就是一步&quot;&gt;&lt;/a&gt;就是一步&lt;/h2&gt;&lt;p&gt;只需要配置一下Nginx,
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Nginx" scheme="http://yoursite.com/tags/Nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 测试</title>
+    <link href="http://yoursite.com/2017/09/01/2017-03-02-markdown-ce-shi/"/>
+    <id>http://yoursite.com/2017/09/01/2017-03-02-markdown-ce-shi/</id>
+    <published>2017-09-01T02:42:06.000Z</published>
+    <updated>2020-11-01T07:28:42.768Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;该文章用于展示markdown生成的格式。&lt;/p&gt;
+&lt;p&gt;插件 &lt;code&gt;hexo-markdown-assets-files&lt;/code&gt; 测试:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/avatar.png&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://yoursite.com/categories/Blog/"/>
+    
+    
+      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
